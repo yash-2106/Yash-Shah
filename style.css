@@ -94,7 +94,7 @@
     font-family: 'Felipa', Courier, monospace;
 }
 .emoji{
-    border: 1px solid black;
+    border: 1px whitesmoke;
     object-fit: cover;
     background-color:rgb(232, 134, 4) ;
     border-radius: 50%;
