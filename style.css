@@ -96,7 +96,7 @@
 .emoji{
     border: 1px solid black;
     object-fit: cover;
-    background-color: ;
+    background-color:rgb(232, 134, 4) ;
     border-radius: 50%;
     margin-top: 50px;
     position:relative;
@@ -124,6 +124,7 @@
     display: flex;
     justify-content: center;
     font-size: 300%;
+    margin-top:5%;
 }
 .certificate{
     display: flex;
@@ -139,17 +140,16 @@
     background-color: #e0ded9;
 }
 .certificate1,.certificate2,.certificate3{
-    border: 1px solid black;
+    border: 1px whitesmoke;
     width: 300px;
     height: 480px;
     margin: 10px;
     justify-content: space-between;
     background-color: snow;
-    box-shadow: 10px 10px 23px black;
 }
 .certificate1:hover,.certificate2:hover,.certificate3:hover{
-    transform: rotateY(360deg);
-    transition: transform 10s ease 0s;
+   box-shadow: 10px 10px 23px black;
+    margin-top:0;
     cursor: pointer;
 }
 .description{
@@ -161,7 +161,7 @@
 }
 .certificate1:hover,.certificate2:hover,.certificate3:hover{
     cursor: pointer;
-    border: 2px solid brown;
+    border: whitesmoke;
 }
 hr{
     border: 1px solid lightgray;
@@ -202,6 +202,8 @@ footer{
 .heading_about{
     text-align: center;
     font-size: 300%;
+    padding-top:5%;
+    padding-bottom:2%;
 }
 
 @media only screen and (max-width: 392px) {
