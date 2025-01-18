@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="/styles_CSS/form_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p>
+        <h1 class="heading"><b>Contact Form</b></h1>
+        </p>
+        <br><br>
+        <form action="">
+            <hr>
+            <p>
+            <h3>Personal Information :</h3>
+            </p>
+            <p>*Full Name : <input type="text" name="full_name" required placeholder="Yash Amit Shah"></p>
+            <p>Age : <input type="number" name="age" min="1"></p>
+            <p>*Phone Number : <input type="tel" name="tel_number" required></p>
+            <p>*Email : <input type="email" name="email" required placeholder="xyz@gmail.com"></p>
+            <p>Address : <textarea rows="4" cols="188" name="Address"></textarea></p>
+            <p>Pin code : <input type="number" name="pin" min="0"></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p> Male <input type="radio" name="Gender"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Female <input
+                        type="radio" name="Gender"></p>
+            </fieldset>
+            <p><i>Fields marked with * are mandatory</i></p>
+            <p><input type="submit" value="Submit !">
+                <input type="button" value="Reset" onclick="this.form.reset()">
+            </p>
+        </form>
+    </div>
+</body>
+</html>

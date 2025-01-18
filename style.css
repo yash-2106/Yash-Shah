@@ -1,0 +1,281 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+.header{
+    height:180px;
+    /* background-color: #6A80B9; */
+    background-image: radial-gradient(circle,#4f5e85,rgb(168, 230, 255),#4f5e85,rgb(168, 230, 255),#4f5e85,rgb(168, 230, 255));
+    margin-top: 0;
+    border: 4px solid black;
+    border-left-color: snow;
+    border-right-color:snow ;
+    padding: 2%;
+    
+    
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 75px ;
+    text-shadow: 10px 5px 3px rgb(72, 72, 113);
+    font-family: 'Oleo Script', Times, serif;
+    margin-top: 2%;
+}
+.navbar{
+    margin-top: 2%;
+}
+.navbar a{
+    text-decoration: none;
+    float: right;
+    font-size: large;
+    color:darkblue;
+    font-size: 150%;
+}
+.navbar a:hover{
+    color: red;
+    cursor: pointer;
+}
+.profile-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 5px solid black;
+    box-shadow:15px 5px 30px rgb(73, 0, 69);
+    
+}
+.profile-image:hover{
+    transform: rotatez(360deg);
+    transition: transform 10s, ease 5s; 
+    transition-delay: 1s;
+    cursor: pointer;
+}
+.parent{
+    display: flex;
+    padding-top: 1%;
+    
+}
+.child1{
+    width: 65%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent ;
+}
+.child2{
+    border:1px;
+    width: 35%;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color:transparent ;
+}
+.child1{
+    height: 500px;
+    /* background-color:rgb(192, 192, 246); */
+    background-image: linear-gradient(145deg,rgb(145, 145, 190),white);
+    display: flex;
+    justify-content: center;
+}
+.child2{
+    height: 500px;
+    /* background-color: #be7a97; */
+    background-image: linear-gradient(100deg,#be7a97,white);
+}
+.web_developer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: transparent ;
+    width: 60%;
+    font-size: 400%;
+    text-shadow: 10px 5px 4px rgb(72, 72, 113);
+    font-family: 'Felipa', Courier, monospace;
+}
+.emoji{
+    border: 1px solid black;
+    object-fit: cover;
+    background-color: ;
+    border-radius: 50%;
+    margin-top: 50px;
+    position:relative;
+    animation: bouncing 1s ease 0s infinite alternate both;
+}
+@keyframes bouncing{
+    0%{
+        bottom: 0;
+        height: 150px;
+        box-shadow: 1px 10px 5px gray;
+    }
+    100%{
+        bottom: 100px;
+        /* height: 100px; */
+    }
+}
+.profile{
+    border: 1px solid black;
+    width: fit-content;
+    margin-top: 100px;
+    margin-left: 130px;
+    border-color: transparent;
+}
+.certificate_heading{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+}
+.certificate{
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    border: 1px solid black;
+    width: 100%;
+    height: 530px;
+    margin-top: 50px;
+    margin-left: 0;
+    border-color: transparent;
+    padding-top:20px;
+    background-color: #e0ded9;
+}
+.certificate1,.certificate2,.certificate3{
+    border: 1px solid black;
+    width: 300px;
+    height: 480px;
+    margin: 10px;
+    justify-content: space-between;
+    background-color: snow;
+    box-shadow: 10px 10px 23px black;
+}
+.certificate1:hover,.certificate2:hover,.certificate3:hover{
+    transform: rotateY(360deg);
+    transition: transform 10s ease 0s;
+    cursor: pointer;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    font-family: 'Felipa', Courier, monospace;
+}
+.certificate1:hover,.certificate2:hover,.certificate3:hover{
+    cursor: pointer;
+    border: 2px solid brown;
+}
+hr{
+    border: 1px solid lightgray;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 23%;
+}
+footer{
+    display: flex;
+    justify-content: row;
+    justify-content: space-around;
+    background-color: rgb(222, 221, 221);
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Oleo Script', Times, serif;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.about_us{
+    background-color: #f2f2f2;
+    box-sizing: content-box;
+    border: 2px transparent;
+    width: 50%;
+    padding: 2%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 200%;
+    color:black;
+    display: flex;
+    justify-self:center;
+    background-image: url(image3.jpg);
+    background-size: cover;
+    /* box-shadow: 15px 10px 25px rgb(235, 87, 238); */
+    box-shadow: -15px -10px 25px teal, 15px 10px 25px rgb(235, 87, 238);
+    font-family: 'Oleo Script', Courier, monospace;
+}
+.heading_about{
+    text-align: center;
+    font-size: 300%;
+}
+
+@media only screen and (max-width: 392px) {
+    .header {
+        height: 300px;
+        padding: 1%;
+    }
+    .heading {
+        font-size: 75px;
+        text-align: center;
+        padding-top: 12%;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        justify-content:space-around;
+    }
+    .navbar a {
+        font-size: 100%;
+        color: rgb(1, 4, 4);
+        font-weight: 900;
+    }
+    .profile-image {
+        width: 140px;
+        height: 230px;
+        margin-left: 10%;
+        margin-top: 15px;
+    }
+    .profile-image:hover{
+        transition: none;
+    }
+    .parent {
+        flex-direction: row;
+        padding-top: 10px;
+    }
+    .child1, .child2 {
+        width: 50%;
+        height: 400px;
+    }
+    .child1{
+        background-image: linear-gradient(to right,rgb(145, 145, 190),white);
+    }
+    .web_developer {
+        font-size: 200%;
+    }
+    .web_developer:hover{
+        transition: none;
+    }
+    .profile {
+        margin-top: 50px;
+        margin-left: 6px;
+    }
+    .certificate {
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+        margin-left:40px;
+        background-color: transparent;
+    }
+    .certificate1, .certificate2, .certificate3 {
+        width: 100%;
+        height: auto;
+        margin: 5px;
+    }
+    .certificate1:hover,.certificate2:hover,.certificate3:hover{
+        transition: none;
+    }
+    .description {
+        font-size: 100%;
+    }
+    footer {
+        font-size: 15px;
+        height: 40px;
+        padding-top: 5px;
+    }
+}
