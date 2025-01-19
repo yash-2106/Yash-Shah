@@ -146,6 +146,7 @@
     margin: 10px;
     justify-content: space-between;
     background-color: snow;
+    transition: margin-top 0.8s 
 }
 .certificate1:hover,.certificate2:hover,.certificate3:hover{
    box-shadow: 10px 10px 23px black;
